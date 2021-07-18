@@ -1,0 +1,89 @@
+.cart {
+    min-height: 150px;
+    overflow: hidden;
+    font-family: 'Roboto Slab', serif;
+    padding: 100px 0;
+
+    &__title {
+        font-size: 40px;
+        text-align: center;
+        font-weight: 300;
+        font-family: 'Dancing Script', cursive;
+        color: #b7b095;
+    }
+    &__list {
+        width: 60%;
+        margin: 0 auto;
+    }
+    &__item {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        border: 1px solid rgba(256,256,256, .2);
+        background-color: rgba(0,0,0,.7);
+        box-shadow: 0 0 20px rgba(256,256,256, .1);
+        &-title, &-price  {
+            width: 350px;
+            text-align: center;
+            color: #fff;
+            font-size: 24px;
+        }
+        &-amount {
+            width: 250px;
+            text-align: center;
+            color: #fff;
+            font-size: 24px;
+        }
+        &-img {
+            height: 125px;
+            width: 250px;
+            object-fit: cover;
+        }
+    }
+    &__close img {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        top: -10px;
+        right: -10px;
+        color: #b7b095;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    &__delete__amount img {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        text-align: center;
+        top: 62px;
+        right: 60px;
+        color: #b7b095;
+        font-weight: 500px;
+        cursor: pointer;
+    }
+    &__add__amount img {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        text-align: center;
+        top: 48px;
+        right: 60px;
+        color: #b7b095;
+        font-weight: 500px;
+        cursor: pointer;
+    }
+    .order{
+        display: block;
+        margin: 30px auto 0px auto;
+        width: 170px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #b7b095;
+        border: none;
+        font-weight: bold;
+        font-size: 14px;
+    }
+}
