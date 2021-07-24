@@ -6,9 +6,7 @@
         background-color: #fff;
         box-shadow: 5px 5px 45px rgba(256,256,256,.1);
         border-radius: 8px;
-        padding: 20px;
-        margin-right: 40px;
-        margin-bottom: 40px;
+        padding: 20px 0;
         text-align: center;
         justify-content: center;
         list-style: none;
@@ -22,7 +20,7 @@
     &__img {
         width: calc(100% + 40px);
         transform: translateX(-20px);
-        height: 240px;
+        height: 100%;
         object-fit: cover;
         margin-bottom: 20px;
     }
@@ -32,6 +30,10 @@
         font-family: 'Dancing Script', cursive;
         color: #b7b095;
         margin-bottom: 20px;
+    }
+    &__prbtn {
+        width: 100%;
+        margin: auto;
     }
     &__price {
         display: inline-block;  
@@ -50,5 +52,13 @@
         color: #fff;
         font-size: 16px;
         cursor: pointer;
+    }
+}
+
+@media (max-width: 1000px) { 
+    .menu{
+        &__item {
+            width: 100%;
+        }
     }
 }
