@@ -1,0 +1,11 @@
+#error {
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.error {
+    color: #b7b095;
+}
