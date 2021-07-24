@@ -88,3 +88,44 @@
         text-decoration: underline #b7b095 ;
     }
 }
+
+
+@media (max-width: 1400px) { 
+    .cart {
+        &__list {
+            width: 90%;
+            margin: 0 auto;
+        }
+        &__item {
+            &-title, &-price  {
+                font-size: 12px;
+            }
+            &-amount {
+                font-size: 12px;
+            }
+            &-img {
+                height: 75px;
+                width: 120px;
+            }
+        }
+        &__close img {
+            width: 12px;
+            height: 12px;
+            font-size: 10px;
+            top: -6px;
+            right: -6px;
+        }
+        &__delete__amount img {
+            width: 7px;
+            height: 7px;
+            top: 40px;
+            right: 30px;
+        }
+        &__add__amount img {
+            width: 7px;
+            height: 7px;
+            top: 30px;
+            right: 30px;
+        }        
+    }    
+}
