@@ -55,10 +55,28 @@
     }
 }
 
-@media (max-width: 1000px) { 
+@media (min-width: 410px) and (max-width: 1000px) { 
     .menu{
         &__item {
             width: 100%;
+        }
+    }
+}
+
+
+@media (max-width: 410px) { 
+    .menu{
+        &__item {
+            width: 100%;
+        }
+        &__price { 
+            font-size: 15px;
+            padding-right: 50px;
+        }
+        &__btn {
+            width: 50px;
+            height: 30px;
+            font-size: 10px;
         }
     }
 }
