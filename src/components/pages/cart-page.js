@@ -6,7 +6,7 @@ import Footer from '../footer/footer';
 const CartPage = () => {
     return (
         <div>
-            <div className='order-block'> Order </div>
+            <div id='order-block'> Order </div>
             <div className="cart"> 
                 <CartTable/>
             </div>
