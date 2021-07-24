@@ -29,7 +29,7 @@ export default class RestoService {
             order: order
         }
 
-        const res = await fetch(`http://localhost:3000/orders`, {
+        const res = await fetch(`${this._apiBase}/orders`, {
             method: "POST",
             headers: {
                 'Content-type': 'application/json; charset=utf-8'
