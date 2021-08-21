@@ -22,3 +22,14 @@ background: rgba(0, 0, 0, 0.8);
 html {
   scroll-behavior: smooth;
 }
+
+@media (max-width: 1200px) {
+  .gotopbtn{
+    width: 45px;
+    height: 45px;
+    bottom: 30px;
+    right: 40px;
+    line-height: 50px;
+    font-size: 20px;
+  }
+}
